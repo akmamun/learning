@@ -5,8 +5,9 @@
 ```
 git init
 ```
-## Git add
+## Git add and Git status
 - Add single file or folder or all changes made
+- See all changes made `git status`
 ```
 git add filename 
 ```
@@ -19,6 +20,9 @@ git add filename
 git commit -m "commit message"
 ```
  - Want to commit all changes `git commit -am "commit message"`
+
+## Edit Git commit 
+- Edit committed message `git commit --amend`
 
 ## Git remote
 
@@ -42,13 +46,33 @@ git clone repository
 ```
 git pull
 ```
-- Git pull with a branch name `git pull origin name`
+- Git pull from a branch name `git pull origin branch_name`
 
 ## Git checkout
-- Reset all previous `git pull` code `git checkout .`
+- Reset all into previous pull code `git checkout .`
 - Checkout a single file or folder `git checkout file_name` or `git checkout folder`
 - Change a branch `git checkout branch_name`
 
+## Git diff
+- Want to see what you haven't git added yet `git diff file_name`
+- Want to see already added changes `git diff --cached file_name`
 
+## Git stash
+- Hide changes without commit
+```
+git stash
+```
+- See list with hidden changes `git stash list`
+```See example:
+stash@{0}: WIP on something
+stash@{1}: Fixed something
+```
+- Apply last changes from stash list `git stash apply`
+- Choose what stash will apply `git stash apply stash@{1}`
+- Remove from stash list `git stash drop stash@{0}` 
 
+# Git log
+- See all committed log `git log`
 
+# Git show
+- Show current committed code `git show`
