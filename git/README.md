@@ -18,6 +18,7 @@ git add filename
 ```
 
 - Add a folder `git add folder_name`
+- Add single file `git add file_name`
 - Add all file `git add .`
 
 ## Git commit
