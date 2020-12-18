@@ -1,5 +1,21 @@
 # Git Essential
 
+## Table of Contents
+
+- [Git initialization](#Git%20initialization)
+- [add and Git status](#Git%20add%20and%20Git%20status)
+- [commit](#Git%20commit)
+- [Edit commit](#Edit%20Git%20commit)
+- [remote](#Git%20remote)
+- [push](#Git%20push)
+- [clone](#Git%20clone)
+- [pull](#Git%20pull)
+- [checkout](#Git%20checkout)
+- [stash](#Git%20stash)
+- [ranch](#Git%20branch)
+- [log](#Git%20log)
+- [show](#Git%20show)
+
 ## Git initialization
 
 - Only one time need to initialization
@@ -70,6 +86,7 @@ git pull
 - Reset all into previous pull code `git checkout .`
 - Checkout a single file or folder `git checkout file_name` or `git checkout folder`
 - Change a branch `git checkout branch_name`
+- Create new branch `git checkout -b branch_name`
 
 ## Git diff
 
