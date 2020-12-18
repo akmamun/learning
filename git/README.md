@@ -2,19 +2,19 @@
 
 ## Table of Contents
 
-- [Git initialization](#Git%20initialization)
-- [add and Git status](#Git%20add%20and%20Git%20status)
-- [commit](#Git%20commit)
-- [Edit commit](#Edit%20Git%20commit)
-- [remote](#Git%20remote)
-- [push](#Git%20push)
-- [clone](#Git%20clone)
-- [pull](#Git%20pull)
-- [checkout](#Git%20checkout)
-- [stash](#Git%20stash)
-- [ranch](#Git%20branch)
-- [log](#Git%20log)
-- [show](#Git%20show)
+- [Git initialization](#Git-initialization)
+- [add and Git status](#Git-add-and-Git-status)
+- [commit](#Git-commit)
+- [Edit commit](#Edit-Git-commit)
+- [remote](#Git-remote)
+- [push](#Git-push)
+- [clone](#Git-clone)
+- [pull](#Git-pull)
+- [checkout](#Git-checkout)
+- [stash](#Git-stash)
+- [branch](#Git-branch)
+- [log](#Git-log)
+- [show](#Git-show)
 
 ## Git initialization
 
